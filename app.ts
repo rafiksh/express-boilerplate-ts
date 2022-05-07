@@ -1,16 +1,14 @@
 import express from "express";
-import bodyParser from "body-parser";
 import "dotenv/config";
+
+import { defaultRouter } from "./src/routers/default";
+import { healthRoute } from "./src/routes";
 
 const { PORT = 5000 } = process.env;
 
 const app = express();
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get("/", (req, res) => {
-  res.send("Hello World");
-});
+app.use("/health", healthRoute(defaultRouter()));
 
 app.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`);
