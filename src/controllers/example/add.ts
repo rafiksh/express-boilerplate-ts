@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 
-import { addExample as addExampleService } from "../../services/example/add";
+import { addExample as addExampleService } from "&services/example/add";
 
 const addExample = (req: Request, res: Response) => {
   try {

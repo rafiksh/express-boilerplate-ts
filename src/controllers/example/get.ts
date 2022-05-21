@@ -3,7 +3,7 @@ import { Request, Response } from "express";
 import {
   getExamples as getExamplesService,
   getExampleById as getExampleByIdService,
-} from "../../services/example";
+} from "&services/example";
 
 const getExamples = async (req: Request, res: Response) => {
   try {

@@ -1,9 +1,10 @@
 import express from "express";
 import "dotenv/config";
+import "module-alias/register";
 
-import "./src/db";
-import { defaultRouter } from "./src/routers/default";
-import { healthRoute, exampleRoute } from "./src/routes";
+import "&db/.";
+import { defaultRouter } from "&routers/default";
+import { healthRoute, exampleRoute } from "&routes/.";
 
 const { PORT = 5000 } = process.env;
 
