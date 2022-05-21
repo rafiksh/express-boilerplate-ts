@@ -1,4 +1,4 @@
-import Example from "../../db/models/example";
+import Example from "&db/models/example";
 
 const getExamples = () => {
   return Example.find({});
