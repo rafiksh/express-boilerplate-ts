@@ -9,7 +9,14 @@
     "outDir": "dist",
     "baseUrl": ".",
     "paths": {
-      "*": ["node_modules/*"]
+      "*": ["node_modules/*"],
+      "&db/*": ["src/db/*"],
+      "&config/*": ["src/config/*"],
+      "&routes/*": ["src/routes/*"],
+      "&routers/*": ["src/routers/*"],
+      "&middlewares/*": ["src/middlewares/*"],
+      "&controllers/*": ["src/controllers/*"],
+      "&services/*": ["src/services/*"]
     }
   },
 }
