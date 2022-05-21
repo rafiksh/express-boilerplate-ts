@@ -1,6 +1,7 @@
 import express from "express";
 import "dotenv/config";
 
+import "./src/db";
 import { defaultRouter } from "./src/routers/default";
 import { healthRoute } from "./src/routes";
 
