@@ -1,3 +1,4 @@
 import { healthRoute } from "./health";
+import { exampleRoute } from "./example";
 
-export { healthRoute };
+export { healthRoute, exampleRoute };
