@@ -1,3 +1,11 @@
+# Packages folder
 node_modules
+
+# Build folder
 dist
+
+# Local vscode settings
+.vscode
+
+# Enviroment variables (for example: PATH)
 .env
