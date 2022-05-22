@@ -9,3 +9,6 @@ dist
 
 # Enviroment variables (for example: PATH)
 .env
+
+# Yarn error logs
+yarn-error.log
