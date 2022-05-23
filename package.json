@@ -1,5 +1,6 @@
 {
   "main": ".",
+  "license": "MIT",
   "scripts": {
     "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
     "build": "tsc",
