@@ -3,7 +3,7 @@
   "scripts": {
     "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
     "build": "tsc",
-    "prestart": "build",
+    "prestart": "yarn build",
     "start": "node ./dist/app.js",
     "start:dev": "nodemon app.ts"
   },
@@ -25,12 +25,12 @@
     "typescript": "^4.6.4"
   },
   "_moduleAliases": {
-    "&db": "dist/src/db",
-    "&config": "dist/src/config",
-    "&routes": "dist/src/routes",
-    "&routers": "dist/src/routers",
-    "&middlewares": "dist/src/middlewares",
-    "&controllers": "dist/src/controllers",
-    "&services": "dist/src/services"
+    "&db": "./src/db",
+    "&config": "./src/config",
+    "&routes": "./src/routes",
+    "&routers": "./src/routers",
+    "&middlewares": "./src/middlewares",
+    "&controllers": "./src/controllers",
+    "&services": "./src/services"
   }
 }
