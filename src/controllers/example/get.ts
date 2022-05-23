@@ -7,7 +7,9 @@ import {
 
 const getExamples = async (req: Request, res: Response) => {
   try {
+    console.log("Trying to get all examples");
     const result = await getExamplesService();
+    console.log("Successfully got all examples");
 
     res.status(200);
     res.send(result);
@@ -20,7 +22,9 @@ const getExampleById = async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
 
+    console.log("Trying to get example with id: ", id);
     const result = await getExampleByIdService(id);
+    console.log("Successfully got example with id: ", id);
 
     res.status(200);
     res.send(result);

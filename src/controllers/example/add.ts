@@ -1,14 +1,16 @@
 import { Request, Response } from "express";
 
-import { addExample as addExampleService } from "&services/example/add";
+import { addExample as addExampleService } from "&services/example";
 
-const addExample = (req: Request, res: Response) => {
+const addExample = async (req: Request, res: Response) => {
   try {
-    const { name, age } = req.body;
+    const { body } = req;
 
-    addExampleService({ name, age });
+    console.log("Trying to add example");
+    await addExampleService(body);
+    console.log("Successfully added example");
 
-    res.status(204);
+    res.status(200);
     res.send("Successfully added example");
   } catch (error) {
     res.status(500);
