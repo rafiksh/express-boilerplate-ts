@@ -24,7 +24,6 @@ const updateExample = async (req: Request, res: Response) => {
 };
 const deleteExample = async (req: Request, res: Response) => {
   try {
-    console.log("id", req.params.id);
     const { id } = req.params;
 
     console.log("Trying to delete example with id: ", id);
