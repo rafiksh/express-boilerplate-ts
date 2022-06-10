@@ -14,5 +14,5 @@ app.use("/health", healthRoute(defaultRouter()));
 app.use("/examples", exampleRoute(defaultRouter()));
 
 app.listen(PORT, () => {
-  console.log(`Server started on port ${PORT}`);
+  console.log(`Server listening on port ${PORT}`);
 });
