@@ -128,7 +128,7 @@ The swagger and the monitor route can be altered in the `.env` file.
 | **src/**                          | Source files |
 | **src/controllers/**              | REST API Controllers |
 | **src/middlewares/**              | Express Middlewares like helmet security features |
-| **src/db/**                       | Repository / DB layer |
+| **src/db/**                       | DB layer |
 | **src/services/**                 | Service layer |
 | **src/validation/**               | Custom validation, which can be used as middleware validators |
 | **test**                          | Tests |
@@ -148,4 +148,4 @@ The swagger and the monitor route can be altered in the `.env` file.
 
 ## License
 
-[MIT](/LICENSE)
+[MIT]
