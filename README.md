@@ -6,7 +6,6 @@
 
 <br />
 
-
 ##  Why
 
 The main goal with this project is a ready to use server application to be focused immediately on business and not spending hours on project configuration.
@@ -21,7 +20,6 @@ The main goal with this project is a ready to use server application to be focus
 - **API Documentation** thanks to [swagger](http://swagger.io/) 
 
 
-
 ## ❯ Table of Contents
 
 - [Getting Started](#-getting-started)
@@ -30,7 +28,6 @@ The main goal with this project is a ready to use server application to be focus
 - [Project Structure](#-project-structure)
 - [Further Documentations](#-further-documentations)
 - [License](#-license)
-
 
 
 ## ❯ Getting Started
@@ -49,7 +46,6 @@ Install yarn globally
 ```bash
 yarn global add yarn
 ```
-
 
 ### Step 2: Create new Project
 
@@ -105,7 +101,6 @@ yarn start serve
 - To start the builded app located in `dist` use `yarn start`.
 
 
-
 ## API Routes
 
 The route prefix is `/api` by default, but you can change this in the .env file.
@@ -116,7 +111,6 @@ The swagger and the monitor route can be altered in the `.env` file.
 | **/swagger**   | This is the Swagger UI with our API documentation |
 | **/monitor**   | Shows a small monitor page for the server |
 | **/examples** | Example entity endpoint |
-
 
 
 ## Project Structure
@@ -135,7 +129,6 @@ The swagger and the monitor route can be altered in the `.env` file.
 | .env.test                         | Test environment configurations |
 
 
-
 ## Further Documentations
 
 | Name & Link                       | Description                       |
@@ -143,7 +136,6 @@ The swagger and the monitor route can be altered in the `.env` file.
 | [Express](https://expressjs.com/) | Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. |
 | [Jest](http://facebook.github.io/jest/) | Delightful JavaScript Testing Library for unit and e2e tests SOON|
 | [swagger Documentation](http://swagger.io/) | API Tool to describe and document your api. |
-
 
 
 ## License
