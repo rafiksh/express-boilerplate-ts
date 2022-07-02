@@ -148,4 +148,4 @@ The swagger and the monitor route can be altered in the `.env` file.
 
 ## License
 
-[MIT]
+[MIT] (/LICENSE)
